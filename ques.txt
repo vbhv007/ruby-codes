@@ -1,0 +1,51 @@
+----------------------------------------------------------------------------------
+
+prog1: Count the ocurrences of various alphabet letters in an input string and store it in hash. Your ruby program should accept a string as an argument and display the hash as an output.
+
+----------------------------------------------------------------------------------
+
+prog2: Ask user to enter text. Replace each vowel in the text with a '*' using regular expression. Your program should accept a string as an argument and output the replaced string
+
+----------------------------------------------------------------------------------
+
+prog3: Write a program to print a Fibonacci series. Your program should accept a number input and output the Febonacci series. Make use of yield in your program
+
+----------------------------------------------------------------------------------
+
+prog4: Output whether the input string is palindrome.
+
+Add a method palindrome? in String class, so that it can be called as str.palindrome?, this method should return true / false
+
+Input should be passed as a commend line argument.
+* When string is Palindrome, output should be "Input string is a palindrome"
+* When string is not Palindrome, output should be "Input string is not a palindrome"
+* If no argument is passed(or blank string argument). output should be "Please provide an input"
+
+----------------------------------------------------------------------------------
+
+prog5: Define a class Account with three three attributes "name","account_no" & "balance". Name and Balance should be set when creating an object of Account class, account_number should be auto increment. This Account class must have two methods, deposit() and withdraw().
+
+Your program should take three arguments
+1. customer one
+2. customer two
+3. transaction amount
+
+Input Format:
+customer_name1:account_balance1 customer_name2:account_balance2 transfer:transaction_amount
+
+----------------------------------------------------------------------------------
+
+prog6: Define a class named 'Vehicle' consisting of 'name','price' and methods for initializing and showing contents(overwrite to_s).
+The 'price' of Vehicle may change over time.
+Now create a subclass 'Bike' having 'dealer' and percent_price_increase and method to show its content. Initialize a Bike class object with certain values. Define a method price_increase which will increase the price.
+
+Your program should accept command line input in this format: BikeName Price Dealer PercentPriceIncrease. Ex: BajajDiscover 58000 BaggaLink 12
+
+----------------------------------------------------------------------------------
+
+prog7: Overwrite the default 'to_s' method such that it inverses the case of each letter.
+Eg: "hello WORLD".to_s -> "HELLO world"
+
+Your program should accept a string as an argument and print the output on standard output.
+
+----------------------------------------------------------------------------------
