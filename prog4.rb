@@ -1,3 +1,4 @@
+# String class
 class String
   attr_accessor :str
 
