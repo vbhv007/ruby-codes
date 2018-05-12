@@ -2,7 +2,7 @@
 class MethodChange
   attr_accessor :str
 
-  def initialize str
+  def initialize(str)
     @str = str
   end
 
