@@ -31,7 +31,16 @@ Your program should take three arguments
 3. transaction amount
 
 Input Format:
-customer_name1:account_balance1 customer_name2:account_balance2 transfer:transaction_amount
+Rahul:2000 Abhishek:3000 transfer:200
+
+Output Format:
+Account number: 1
+Account holder name: Rahul
+Account balance: 1800
+
+Account number: 2
+Account holder name: Abhishek
+Account balance: 3200
 
 ----------------------------------------------------------------------------------
 
@@ -40,6 +49,17 @@ The 'price' of Vehicle may change over time.
 Now create a subclass 'Bike' having 'dealer' and percent_price_increase and method to show its content. Initialize a Bike class object with certain values. Define a method price_increase which will increase the price.
 
 Your program should accept command line input in this format: BikeName Price Dealer PercentPriceIncrease. Ex: BajajDiscover 58000 BaggaLink 12
+
+output should be like:
+
+Bike Name: BajajDiscover
+Bike Price: 58000
+Bike Dealer: BaggaLink
+
+After 12.0 percent hike in price:
+Bike Name: BajajDiscover
+Bike Price: 64960.0
+Bike Dealer: BaggaLink
 
 ----------------------------------------------------------------------------------
 
