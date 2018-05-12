@@ -1,2 +1,4 @@
 # ruby-codes
-This is me learning ruby
+Hey, This is me learning ruby
+
+Plz refer "ques.txt" for the all the respective questions...
