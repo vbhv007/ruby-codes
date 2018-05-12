@@ -1,12 +1,12 @@
+# Account class
 class Account
-  @@account_no = 0
+  @account_no = 0
   attr_reader :name, :account_no
   attr_accessor :balance
   def initialize(name, balance)
     @name = name
     @balance = balance
-    @@account_no += 1
-    @account_no = @@account_no
+    @account_no += 1
   end
 
   def deposite(amount)
