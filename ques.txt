@@ -95,3 +95,8 @@ prog13: Rewrite factorial method using ranges.
 Your script should take a number from command line and output the result on standard output
 
 ----------------------------------------------------------------------------------
+
+prog14: Use string methods to reverse the words arrangement in a sentence.
+Eg: "An apple a day keeps the doctor away" -> "away doctor the keeps day a apple An"
+
+----------------------------------------------------------------------------------
