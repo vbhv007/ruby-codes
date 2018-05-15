@@ -87,6 +87,11 @@ output: {1=>["x", "5"], 3=>["abc", "def", "234"], 4=>["1234", "abcd", "mnop", "z
 
 ----------------------------------------------------------------------------------
 
-prog9: Write a method that returns the no of various lowercase, uppercase, digits and special characters used in the string. Make use of Ranges.
+prog12: Write a method that returns the no of various lowercase, uppercase, digits and special characters used in the string. Make use of Ranges.
+
+----------------------------------------------------------------------------------
+
+prog13: Rewrite factorial method using ranges.
+Your script should take a number from command line and output the result on standard output
 
 ----------------------------------------------------------------------------------
