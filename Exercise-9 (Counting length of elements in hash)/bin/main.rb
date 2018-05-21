@@ -4,4 +4,4 @@ if ARGV[0].nil?
   puts 'Please provide an input'
   exit
 end
-ARGV[0].count_str
+p ARGV[0].count_str
