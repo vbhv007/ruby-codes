@@ -5,4 +5,4 @@ if ARGV[0].nil?
   exit
 end
 
-ARGV[0].power(ARGV[1])
+p ARGV[0].power(ARGV[1])
