@@ -1,18 +1,18 @@
 ----------------------------------------------------------------------------------
 
-prog1: Count the ocurrences of various alphabet letters in an input string and store it in hash. Your ruby program should accept a string as an argument and display the hash as an output.
+Exercise-1: Count the ocurrences of various alphabet letters in an input string and store it in hash. Your ruby program should accept a string as an argument and display the hash as an output.
 
 ----------------------------------------------------------------------------------
 
-prog2: Ask user to enter text. Replace each vowel in the text with a '*' using regular expression. Your program should accept a string as an argument and output the replaced string
+Exercise-2: Ask user to enter text. Replace each vowel in the text with a '*' using regular expression. Your program should accept a string as an argument and output the replaced string
 
 ----------------------------------------------------------------------------------
 
-prog3: Write a program to print a Fibonacci series. Your program should accept a number input and output the Febonacci series. Make use of yield in your program
+Exercise-3: Write a program to print a Fibonacci series. Your program should accept a number input and output the Febonacci series. Make use of yield in your program
 
 ----------------------------------------------------------------------------------
 
-prog4: Output whether the input string is palindrome.
+Exercise-4: Output whether the input string is palindrome.
 
 Add a method palindrome? in String class, so that it can be called as str.palindrome?, this method should return true / false
 
@@ -23,7 +23,7 @@ Input should be passed as a commend line argument.
 
 ----------------------------------------------------------------------------------
 
-prog5: Define a class Account with three three attributes "name","account_no" & "balance". Name and Balance should be set when creating an object of Account class, account_number should be auto increment. This Account class must have two methods, deposit() and withdraw().
+Exercise-5: Define a class Account with three three attributes "name","account_no" & "balance". Name and Balance should be set when creating an object of Account class, account_number should be auto increment. This Account class must have two methods, deposit() and withdraw().
 
 Your program should take three arguments
 1. customer one
@@ -44,7 +44,7 @@ Account balance: 3200
 
 ----------------------------------------------------------------------------------
 
-prog6: Define a class named 'Vehicle' consisting of 'name','price' and methods for initializing and showing contents(overwrite to_s).
+Exercise-6: Define a class named 'Vehicle' consisting of 'name','price' and methods for initializing and showing contents(overwrite to_s).
 The 'price' of Vehicle may change over time.
 Now create a subclass 'Bike' having 'dealer' and percent_price_increase and method to show its content. Initialize a Bike class object with certain values. Define a method price_increase which will increase the price.
 
@@ -63,14 +63,14 @@ Bike Dealer: BaggaLink
 
 ----------------------------------------------------------------------------------
 
-prog7: Overwrite the default 'to_s' method such that it inverses the case of each letter.
+Exercise-7: Overwrite the default 'to_s' method such that it inverses the case of each letter.
 Eg: "hello WORLD".to_s -> "HELLO world"
 
 Your program should accept a string as an argument and print the output on standard output.
 
 ----------------------------------------------------------------------------------
 
-prog8: Define a method power() for an array. It takes an argument 'x' and returns the array with elements raised to power 'x'. Try to make use of array functions.
+Exercise-8: Define a method power() for an array. It takes an argument 'x' and returns the array with elements raised to power 'x'. Try to make use of array functions.
 
 Your program should accept an array and the value of power from command line.
 input example: ruby power_array.rb "[1,2,3,4]" 2
@@ -78,7 +78,7 @@ output example: [1, 4, 9, 16]
 
 ----------------------------------------------------------------------------------
 
-prog9: Create a method for Array that returns a hash having 'key' as length of the element and value as an array of all the elements of that length. Make use of Array#each.
+Exercise-9: Create a method for Array that returns a hash having 'key' as length of the element and value as an array of all the elements of that length. Make use of Array#each.
 Returned Hash should be sorted by key.
 
 Your program should accept command line arguments.
@@ -87,16 +87,16 @@ output: {1=>["x", "5"], 3=>["abc", "def", "234"], 4=>["1234", "abcd", "mnop", "z
 
 ----------------------------------------------------------------------------------
 
-prog12: Write a method that returns the no of various lowercase, uppercase, digits and special characters used in the string. Make use of Ranges.
+Exercise-12: Write a method that returns the no of various lowercase, uppercase, digits and special characters used in the string. Make use of Ranges.
 
 ----------------------------------------------------------------------------------
 
-prog13: Rewrite factorial method using ranges.
+Exercise-13: Rewrite factorial method using ranges.
 Your script should take a number from command line and output the result on standard output
 
 ----------------------------------------------------------------------------------
 
-prog14: Use string methods to reverse the words arrangement in a sentence.
+Exercise-14: Use string methods to reverse the words arrangement in a sentence.
 Eg: "An apple a day keeps the doctor away" -> "away doctor the keeps day a apple An"
 
 ----------------------------------------------------------------------------------
