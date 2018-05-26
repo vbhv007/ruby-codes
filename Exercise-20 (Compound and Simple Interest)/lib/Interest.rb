@@ -3,7 +3,8 @@ class Interest
     @block = block
   end
 
-  def difference(p, t)
-    printf 'Interest difference= %.2f', @block.call(p, t)
+  def difference(prin, time)
+    int = (prin * ((1 + 0.1)**time - 1)) - prin * 0.1 * time
+    @block.call(int)
   end
 end
