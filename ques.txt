@@ -100,3 +100,107 @@ Exercise-14: Use string methods to reverse the words arrangement in a sentence.
 Eg: "An apple a day keeps the doctor away" -> "away doctor the keeps day a apple An"
 
 ----------------------------------------------------------------------------------
+
+Exercise-15: Define a method to find all prime numbers upto n using 'step' function.
+
+----------------------------------------------------------------------------------
+
+Exercise-16: Write a search method that searches for a letter or word in a user input string and highlights the searched element. Also it should display the total no of searches found.
+
+Eg: If user enters string to be searched as "Can you can a can as a canner can can a can?" and word to be searched is 'can' then output should be:
+(Can) you (can) a (can) as a (can)ner (can) (can) a (can)?
+Total Occurences found: 7
+
+----------------------------------------------------------------------------------
+
+Exercise-17: Write a method that sums up 2 24-hour time values(h:m:s). Validate the time using regular expressions.
+Eg: ("0:45:34","0:15:58") -> 01:01:32 ; ("11:23:07","22:53:45") -> 1 day & 10:16:52
+
+----------------------------------------------------------------------------------
+
+Exercise-19: Modify the sum of times method for any number of time values passed to this method.
+Eg: ("11:23:07","22:53:45","0:23:23","23:45:56") -> "2 day & 10:26:11"
+("11:23:07") -> "11:23:07"
+
+----------------------------------------------------------------------------------
+
+Exercise-20:Create a class Interest that gives the user the difference in amount calculated simply and compoundedly. Initialise class with a block. 'p' and 't' are entered by user. Take 'r' = 10% pa.
+
+----------------------------------------------------------------------------------
+
+Exercise-21: Add exception handling for negative numbers in factorial program.
+
+----------------------------------------------------------------------------------
+
+Exercise-22: Create a class 'Name' with two attributes firstname and lastname. Neither of them can be blank and the first letter of firstname must be capital. Implement using 'raise'.
+
+Try using custom Exceptions.
+
+----------------------------------------------------------------------------------
+
+Exercise-23:Read a CSV file:
+
+Name, EmpId, Designation
+Jack, 15, Developer
+Mary, 13, Designer
+John, 12, Developer
+Jane, 17, Designer
+Johny, 19, Tester
+
+Save into another file in the format:
+
+Designers
+Mary (EmpId: 13)
+Jane (EmpId: 17)
+
+Developers
+John (EmpId: 12)
+Jack (EmpId: 15)
+
+Tester
+Johny (EmpId: 19)
+
+  1.Listing should be in ascending order of Designation.
+  2.Designation should be plural if it has more than one Employee.
+
+
+----------------------------------------------------------------------------------
+
+Reverse Iterate: Implement a reverse iteration function for Array such that I should be able to do this
+
+[2,4,6,8].reverse_iterate { |i| print "#{i} "}
+
+It would print 8 6 4 2
+
+note: Do not use any existing iterator for this.
+
+----------------------------------------------------------------------------------
+
+Sales Tax Problem: Sales Tax Problem: You have to write a program in Ruby which would calculate the sales tax on the items according to the following conditions:
+
+a. Flat 10 % sales tax is applicable on all items except for book, food and medicine
+b. Additional Import Duty of 5 % is applicable on all imported items without any exceptions
+
+The input to the program would be in the following format..
+
+Name of the product: Chocolates
+Imported?: yes
+Exempted from sales tax? yes
+Price: 120
+Do you want to add more items to your list(y/n): y
+
+Name of the product: Potato Chips
+Imported?: no
+Exempted from sales tax?: yes
+Price: 100
+Do you want to add more items to your list(y/n): y
+
+Name of the product: Perfume
+Imported?: yes
+Exempted from sales tax? no
+Price: 150
+Do you want to add more items to your list(y/n): n
+
+You have to generate a list that would display the list in a nice format and the grand total should be rounded to the nearest integer.
+
+----------------------------------------------------------------------------------
