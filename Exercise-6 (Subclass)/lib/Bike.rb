@@ -1,6 +1,6 @@
 require '../lib/Vehicle.rb'
 class Bike < Vehicle
-  attr_reader :percent
+  attr_reader :percent, :dealer
 
   def initialize(name, price, dealer, percent)
     super(name, price)
@@ -10,5 +10,10 @@ class Bike < Vehicle
 
   def price_increase
     @price += percent * @price / 100
+  end
+
+  def to_s
+    puts super
+    puts "Bike Dealer: #{dealer}"
   end
 end
