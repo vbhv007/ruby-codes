@@ -1,3 +1,4 @@
+# this is class Sales
 class Sales
   def input
     arr = []
@@ -11,7 +12,6 @@ class Sales
     arr << gets.chomp
     puts 'Do you want to add more items to your list(y/n):'
     arr << gets.chomp
-    p arr
   end
 
   def tax(price, rate)
