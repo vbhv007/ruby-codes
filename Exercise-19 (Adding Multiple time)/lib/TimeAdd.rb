@@ -1,11 +1,10 @@
 require 'time'
+TIME = /^(2[0-3]|[01][0-9]|[0-9]):([0-5]?[0-9]):([0-5]?[0-9])$/
 # this is class String
 class Time
-  TIME = /^(2[0-3]|[01][0-9]|[0]):([0-5]?[0-9]):([0-5]?[0-9])$/
-
   def multiple_time(times)
     if times.all? { |t| t =~ TIME }
-      times = times.map { |t| Time.parse(t) }
+      times.map! { |t| Time.parse(t) }
       total = sum_time(times)
       print_time(total, (total.day - times[0].day))
     else
@@ -14,7 +13,7 @@ class Time
   end
 
   def sum_time(times)
-    times.inject do |a, e|
+    times.inject(self) do |a, e|
       a + e.sec + e.min * 60 + e.hour * 3600
     end
   end
